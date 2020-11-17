@@ -11,4 +11,4 @@ I strongly recommend running beam jobs in a clean virtual environment - I have r
 3) Run `python3 -m venv env` to create a virtual environment named "env" - you can change this name if you wish, but in general you won't have multiple environments in the same project so there is no need
 4) Run `source env/bin/activate` to activate the environment. You're now operating in the virtual environment, and any packages you install will only be reflected here
 
-Once the virtual environment is setup, you must install any packages you need. The packages required for this demo are in the requirements.txt file, which can be installed with `pip install requirements.txt`. In fact there is only one dependency (apache-beam[gcp]), but a real project probably has more (e.g sklearn)
+Once the virtual environment is setup, you must install any packages you need. The packages required for this demo are in the requirements.txt file, which can be installed with `pip install -r requirements.txt`. In fact there is only one dependency (apache-beam[gcp]), but a real project probably has more (e.g sklearn)
